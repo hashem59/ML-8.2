@@ -77,21 +77,46 @@ class HousingScraper:
     def apply_cookies(self):
         """Apply cookies to the browser session"""
         # First navigate to the domain
+        print("🌐 Navigating to realestate.com.au...")
         self.driver.get("https://www.realestate.com.au")
-        time.sleep(15)
+        time.sleep(5)
+
+        # Debug: Check if page loaded
+        print(f"📊 Page title: {self.driver.title}")
+        print(f"📊 Current URL: {self.driver.current_url}")
+        print(f"📊 Page source length: {len(self.driver.page_source)}")
 
         cookies = self.load_cookies_from_file()
+        cookies_applied = 0
         for cookie in cookies:
             try:
                 self.driver.add_cookie(cookie)
+                cookies_applied += 1
             except Exception as e:
                 logger.warning(
                     f"Could not add cookie {cookie.get('name', 'unknown')}: {e}"
                 )
 
-        print(f"✓ Applied cookies to browser session")
+        print(f"✓ Applied {cookies_applied}/{len(cookies)} cookies to browser session")
+
+        # Reload page with cookies
+        print("🔄 Reloading page with cookies...")
         self.driver.get("https://www.realestate.com.au")
-        time.sleep(15)
+        time.sleep(5)
+
+        # Debug after reload
+        print(f"📊 After cookies - Page title: {self.driver.title}")
+        print(f"📊 After cookies - Current URL: {self.driver.current_url}")
+
+        # Check if we're blocked or redirected
+        if (
+            "blocked" in self.driver.page_source.lower()
+            or "captcha" in self.driver.page_source.lower()
+        ):
+            print("⚠️  WARNING: Page may be blocked or showing CAPTCHA")
+
+        if not self.driver.title or "realestate" not in self.driver.title.lower():
+            print("⚠️  WARNING: Page title suggests site may not have loaded properly")
 
     def extract_price(self, price_text):
         """Extract numeric price from price text"""
@@ -339,8 +364,62 @@ class HousingScraper:
         print(df["sold_price"].describe())
 
 
+def test_basic_setup():
+    """Test if Chrome and basic navigation works"""
+    print("🧪 Testing basic browser setup...")
+    scraper = HousingScraper()
+
+    try:
+        scraper.setup_chrome_driver()
+
+        # Test navigation to a simple site first
+        print("🌐 Testing navigation to Google...")
+        scraper.driver.get("https://www.google.com")
+        time.sleep(3)
+        print(f"✓ Google title: {scraper.driver.title}")
+
+        # Now test realestate.com.au
+        scraper.apply_cookies()
+
+        # Test one listing page
+        test_url = "https://www.realestate.com.au/sold/in-highton,+vic+3216/list-1"
+        print(f"🧪 Testing listing page: {test_url}")
+        scraper.driver.get(test_url)
+        time.sleep(5)
+
+        print(f"📊 Listing page title: {scraper.driver.title}")
+        print(f"📊 Page source length: {len(scraper.driver.page_source)}")
+
+        # Check for key elements
+        soup = BeautifulSoup(scraper.driver.page_source, "html.parser")
+        listings = soup.find_all("article", {"data-testid": "ResidentialCard"})
+        print(f"📊 Found {len(listings)} property listings")
+
+        if len(listings) == 0:
+            print("⚠️  No listings found - checking page content...")
+            # Save page source for debugging
+            with open("debug_page_source.html", "w") as f:
+                f.write(scraper.driver.page_source)
+            print("💾 Saved page source to debug_page_source.html")
+
+        input("Press Enter to continue or Ctrl+C to exit...")
+
+    except Exception as e:
+        print(f"❌ Error during test: {e}")
+    finally:
+        if scraper.driver:
+            scraper.driver.quit()
+
+
 def main():
     """Main function to run the scraper"""
+    import sys
+
+    # Check if we want to run test mode
+    if len(sys.argv) > 1 and sys.argv[1] == "test":
+        test_basic_setup()
+        return
+
     scraper = HousingScraper()
 
     try:
