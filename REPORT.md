@@ -18,10 +18,8 @@ I prepared the data in `task.ipynb` as follows:
 - One‑hot encoding: I encoded `suburb` and `property_type` to create columns like `suburb_Highton` and `property_type_House`.
 - Feature engineering (leak‑free): I engineered useful features that don’t use the target, including:
   - `land_per_bedroom = land_size / max(bedrooms, 1)`
-  - `rooms_total = bedrooms + bathrooms`
-  - `sold_year`, `sold_month` from the sale date
-  I initially experimented with `price_per_bedroom` for EDA insights, but I explicitly removed it before modeling to avoid target leakage.
-- Scaling and missing values: I standardized numeric features (e.g., `bedrooms, bathrooms, parking, land_size`) with `StandardScaler`. I filled `parking` with 0 and imputed `land_size` by median during model prep. Any infinities from engineered ratios were converted to NaN and median‑filled.
+
+- Scaling and missing values: I prepared standardized copies of numeric features for EDA. Models were trained on the original scale. I filled `parking` with 0 and imputed `land_size` by median during model prep. Any infinities from engineered ratios were converted to NaN and median‑filled.
 - EDA visuals:
   - Distribution of `sold_price` (histogram + KDE) and a price box plot.
   - Correlation heatmap for numeric features.
@@ -37,15 +35,15 @@ I trained three regressors using scikit‑learn, with an 80/20 train/test split 
 
 I evaluated them with MAE, RMSE, and R². Representative test‑set results from the notebook are:
 
-- Linear Regression: MAE ≈ 91,878 | RMSE ≈ 127,814 | R² ≈ 0.711
-- Random Forest: MAE ≈ 110,759 | RMSE ≈ 176,737 | R² ≈ 0.447
-- Gradient Boosting: MAE ≈ 106,599 | RMSE ≈ 161,855 | R² ≈ 0.536
+- Linear Regression: MAE ≈ 93,856 | RMSE ≈ 129,883 | R² ≈ 0.701
+- Random Forest: MAE ≈ 111,059 | RMSE ≈ 178,204 | R² ≈ 0.437
+- Gradient Boosting: MAE ≈ 108,373 | RMSE ≈ 164,434 | R² ≈ 0.521
 
 I also ran 5‑fold cross‑validation, which supported the same ranking:
 
-- Linear Regression: MAE ≈ 112,972 | RMSE ≈ 167,835 | R² ≈ 0.547
-- Random Forest: MAE ≈ 108,937 | RMSE ≈ 175,416 | R² ≈ 0.518
-- Gradient Boosting: MAE ≈ 110,125 | RMSE ≈ 171,553 | R² ≈ 0.542
+- Linear Regression: MAE ≈ 111,723 | RMSE ≈ 167,769 | R² ≈ 0.549
+- Random Forest: MAE ≈ 110,911 | RMSE ≈ 177,869 | R² ≈ 0.501
+- Gradient Boosting: MAE ≈ 112,218 | RMSE ≈ 173,329 | R² ≈ 0.529
 
 Overall, Linear Regression generalized best on the test set for this dataset snapshot, while tree models fit the training data more strongly but generalized less without tuning.
 
@@ -64,17 +62,3 @@ I created a simple Gradio interface inside the notebook to make predictions from
 - Inputs: `suburb`, `property_type`, `bedrooms`, `bathrooms`, `parking`, and `land_size` (falling back to the median if unknown).
 - Output: a currency‑formatted price prediction.
 - To run it: in `task.ipynb`, install requirements with `%pip install -q gradio` if needed, then uncomment `iface.launch(share=True)` in the deployment cell and execute it. The app starts locally and can optionally create a shareable URL.
-
-### Notes on Reproducibility
-- Key packages: pandas, numpy, scikit‑learn, matplotlib, seaborn, gradio.
-- Quick install inside Jupyter:
-```python
-%pip install -q pandas numpy scikit-learn matplotlib seaborn gradio
-```
-- Data file: the notebook expects `melbourne_housing_data.csv` in the project root.
-- Leakage guard: I removed `price_per_bedroom` from the modeling features (EDA‑only) to prevent target leakage.
-
-### What I would do next
-- Hyperparameter‑tune Random Forest and Gradient Boosting to reduce overfitting and improve generalization.
-- Add more spatial/context features (e.g., proximity to schools/transport, walkability) to improve predictive power.
-- Package the Gradio app for deployment to a small VM or serverless endpoint.
