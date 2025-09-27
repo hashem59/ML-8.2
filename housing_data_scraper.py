@@ -7,12 +7,18 @@ Scrapes housing data from realestate.com.au for three suburbs:
 - Werribee, VIC 3030
 """
 
-import requests
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
 import re
-from datetime import datetime
+import json
 import logging
 
 # Setup logging
@@ -24,12 +30,7 @@ logger = logging.getLogger(__name__)
 
 class HousingScraper:
     def __init__(self):
-        self.session = requests.Session()
-        self.session.headers.update(
-            {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-            }
-        )
+        self.driver = None
         self.data = []
 
         # Suburb URLs
@@ -38,6 +39,59 @@ class HousingScraper:
             "Ballarat": "https://www.realestate.com.au/sold/in-ballarat+-+greater+region,+vic/list-",
             "Werribee": "https://www.realestate.com.au/sold/in-werribee,+vic+3030/list-",
         }
+
+    def setup_chrome_driver(self):
+        """Setup Chrome driver"""
+        chrome_options = Options()
+        # chrome_options.add_argument("--headless")  # Comment out to see browser
+        # chrome_options.add_argument("--no-sandbox")
+        # chrome_options.add_argument("--disable-dev-shm-usage")
+        # chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--window-size=1920,1080")
+        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+        chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        chrome_options.add_experimental_option("useAutomationExtension", False)
+
+        print("Setting up Chrome WebDriver...")
+        self.driver = webdriver.Chrome(options=chrome_options)
+        self.driver.execute_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        )
+        self.driver.set_page_load_timeout(30)
+        print("✓ Chrome WebDriver initialized")
+
+    def load_cookies_from_file(self, filename="www.realestate.com.au.cookies.json"):
+        """Load cookies from JSON file"""
+        try:
+            with open(filename, "r") as f:
+                cookies = json.load(f)
+            print(f"✓ Loaded {len(cookies)} cookies from {filename}")
+            return cookies
+        except FileNotFoundError:
+            print(f"✗ Cookie file {filename} not found!")
+            return []
+        except json.JSONDecodeError:
+            print(f"✗ Error parsing {filename}!")
+            return []
+
+    def apply_cookies(self):
+        """Apply cookies to the browser session"""
+        # First navigate to the domain
+        self.driver.get("https://www.realestate.com.au")
+        time.sleep(15)
+
+        cookies = self.load_cookies_from_file()
+        for cookie in cookies:
+            try:
+                self.driver.add_cookie(cookie)
+            except Exception as e:
+                logger.warning(
+                    f"Could not add cookie {cookie.get('name', 'unknown')}: {e}"
+                )
+
+        print(f"✓ Applied cookies to browser session")
+        self.driver.get("https://www.realestate.com.au")
+        time.sleep(15)
 
     def extract_price(self, price_text):
         """Extract numeric price from price text"""
@@ -108,7 +162,9 @@ class HousingScraper:
                 property_data["property_type"] = type_elem.text.strip()
 
             # Extract bedrooms, bathrooms, parking, land size
-            features_ul = property_element.find("ul", class_="residential-card__primary")
+            features_ul = property_element.find(
+                "ul", class_="residential-card__primary"
+            )
             if features_ul:
                 # Find all list items with aria-label
                 feature_items = features_ul.find_all("li", {"aria-label": True})
@@ -137,9 +193,7 @@ class HousingScraper:
                             property_data["land_size"] = text
 
             # Extract sold price
-            price_elem = property_element.find(
-                "span", {"data-testid": "property-price"}
-            )
+            price_elem = property_element.find("span", class_="property-price")
             if price_elem:
                 property_data["sold_price"] = self.extract_price(price_elem.text)
 
@@ -147,7 +201,6 @@ class HousingScraper:
             date_elem = property_element.find("span", {"data-testid": "sold-date"})
             if date_elem:
                 property_data["sold_date"] = date_elem.text.strip()
-
 
             return property_data
 
@@ -159,13 +212,27 @@ class HousingScraper:
         """Scrape a single page of listings"""
         try:
             logger.info(f"Scraping: {url}")
-            response = self.session.get(url, timeout=10)
-            response.raise_for_status()
+            self.driver.get(url)
 
-            soup = BeautifulSoup(response.content, "html.parser")
+            # Wait for page to load
+            time.sleep(3)
+
+            # Wait for listings to be present
+            try:
+                WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, 'article[data-testid="ResidentialCard"]')
+                    )
+                )
+            except:
+                logger.warning(f"No listings found on page: {url}")
+                return []
+
+            # Get page source and parse with BeautifulSoup
+            soup = BeautifulSoup(self.driver.page_source, "html.parser")
 
             # Find property listings
-            listings = soup.find_all("div", {"data-testid": "ResidentialCard"})
+            listings = soup.find_all("article", {"data-testid": "ResidentialCard"})
 
             page_data = []
             for listing in listings:
@@ -203,7 +270,7 @@ class HousingScraper:
             )
 
             page += 1
-            time.sleep(2)  # Be respectful with requests
+            time.sleep(5)  # Be respectful with requests
 
         logger.info(f"Completed scraping {suburb_name}: {len(suburb_data)} properties")
         return suburb_data[:target_count]  # Return up to target_count
@@ -212,13 +279,26 @@ class HousingScraper:
         """Scrape all three suburbs"""
         logger.info("Starting data collection for all suburbs")
 
-        for suburb_name in self.suburb_urls.keys():
-            suburb_data = self.scrape_suburb(suburb_name, target_count=50)
-            self.data.extend(suburb_data)
-            logger.info(f"Total properties collected: {len(self.data)}")
-            time.sleep(3)  # Pause between suburbs
+        # Setup browser and cookies
+        self.setup_chrome_driver()
+        self.apply_cookies()
 
-        logger.info(f"Data collection completed. Total properties: {len(self.data)}")
+        try:
+            for suburb_name in self.suburb_urls.keys():
+                suburb_data = self.scrape_suburb(suburb_name, target_count=50)
+                self.data.extend(suburb_data)
+                logger.info(f"Total properties collected: {len(self.data)}")
+                time.sleep(10)  # Pause between suburbs
+
+            logger.info(
+                f"Data collection completed. Total properties: {len(self.data)}"
+            )
+
+        finally:
+            # Always close the browser
+            if self.driver:
+                self.driver.quit()
+                print("✓ Browser closed")
 
     def save_to_csv(self, filename="melbourne_housing_data.csv"):
         """Save collected data to CSV file"""
@@ -275,6 +355,10 @@ def main():
         logger.error(f"Unexpected error: {e}")
         if scraper.data:
             scraper.save_to_csv("error_melbourne_housing_data.csv")
+    finally:
+        # Ensure browser is closed
+        if scraper.driver:
+            scraper.driver.quit()
 
 
 if __name__ == "__main__":

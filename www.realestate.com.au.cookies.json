@@ -1,0 +1,273 @@
+[
+  {
+    "name": "Country",
+    "value": "AU",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "ew_bkt",
+    "value": "95",
+    "domain": "www.realestate.com.au",
+    "path": "/",
+    "expires": 1761569335.944661,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "reauid",
+    "value": "24e83f177c4d000038ddd768aa00000028440f00",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1793540452.109547,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "split_audience",
+    "value": "d",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1793537337.048016,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_sp_ses.2fe7",
+    "value": "*",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1758982254,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "AMCVS_341225BE55BBF7E17F000101%40AdobeOrg",
+    "value": "1",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "ab.storage.sessionId.746d0d98-0c96-45e9-82e3-9dfa6ee28794",
+    "value": "%7B%22g%22%3A%22f52f1403-66d0-ff31-ec23-aaff3ed85f68%22%2C%22e%22%3A1758979187893%2C%22c%22%3A1758977387894%2C%22l%22%3A1758977387894%7D",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1793537387,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "ab.storage.deviceId.746d0d98-0c96-45e9-82e3-9dfa6ee28794",
+    "value": "%7B%22g%22%3A%2211f0617f-66e6-96a4-424b-9a6af1022dab%22%2C%22c%22%3A1726263896332%2C%22l%22%3A1758977387894%7D",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1793537387,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "ab.storage.userId.746d0d98-0c96-45e9-82e3-9dfa6ee28794",
+    "value": "%7B%22g%22%3A%22991ab1d2-b2fb-55c3-b35b-0bf7503b1b13%22%2C%22c%22%3A1726263896330%2C%22l%22%3A1758977387894%7D",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1793537387,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "s_ecid",
+    "value": "MCMID%7C48825526340718095874332129278190649819",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1793540452.989178,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "AMCV_341225BE55BBF7E17F000101%40AdobeOrg",
+    "value": "179643557%7CMCIDTS%7C20359%7CMCMID%7C48825526340718095874332129278190649819%7CMCAAMLH-1759582187%7C8%7CMCAAMB-1759582187%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1758984587s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1793537387.985651,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "s_cc",
+    "value": "true",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "DM_SitId1464",
+    "value": "1",
+    "domain": "www.realestate.com.au",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "DM_SitId1464SecId12708",
+    "value": "1",
+    "domain": "www.realestate.com.au",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.2087997322.1758977388",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1766753388,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.893855662.1758977389",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1793537388.582896,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "DM_SitId1464SecId12707",
+    "value": "1",
+    "domain": "www.realestate.com.au",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "_gcl_aw",
+    "value": "GCL.1758977418.CjwKCAjwlt7GBhAvEiwAKal0csuG6PbZo60gHhGuBFSeUUtltOsibhohjrpn43rSI1LF7_7gqHrD6RoC9bUQAvD_BwE",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1766753417,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_gcl_dc",
+    "value": "GCL.1758977418.CjwKCAjwlt7GBhAvEiwAKal0csuG6PbZo60gHhGuBFSeUUtltOsibhohjrpn43rSI1LF7_7gqHrD6RoC9bUQAvD_BwE",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1766753417,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "legs_sq",
+    "value": "%5B%5BB%5D%5D",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "s_sq",
+    "value": "%5B%5BB%5D%5D",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "KFC",
+    "value": "ns1dkxlzfTgLwfkZX7GOV2pbLlvkHUhT+VRdytfGsbE=|1758980452158",
+    "domain": "www.realestate.com.au",
+    "path": "/",
+    "expires": 1790516452.109592,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "KP_UIDz-ssn",
+    "value": "0LPauzkuOCoihuXXZGeMYRsBQXNGYAtCrlBR5ikODWkf3CWmGrMXJLnlOn62BDGWHaxHQlWqcdRwZm4g4nam1wggGkPqYQ7BNFWUgwiKeye2bQH2iPDD7l8B4t50iQ2igf6hX6kJkARShfuMgdLRqps6CglW7sI3roH64P3615vqC71o",
+    "domain": "www.realestate.com.au",
+    "path": "/",
+    "expires": 1759066852.109632,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "KP_UIDz",
+    "value": "0LPauzkuOCoihuXXZGeMYRsBQXNGYAtCrlBR5ikODWkf3CWmGrMXJLnlOn62BDGWHaxHQlWqcdRwZm4g4nam1wggGkPqYQ7BNFWUgwiKeye2bQH2iPDD7l8B4t50iQ2igf6hX6kJkARShfuMgdLRqps6CglW7sI3roH64P3615vqC71o",
+    "domain": "www.realestate.com.au",
+    "path": "/",
+    "expires": 1759066852.109674,
+    "httpOnly": true,
+    "secure": false
+  },
+  {
+    "name": "pageview_counter.srs",
+    "value": "11",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "s_nr30",
+    "value": "1758980452627-New",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1761572452,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "nol_fpid",
+    "value": "rjvzhaagp9zykboi39xxafqzo0daw1758977388|1758977388279|1758980452857|1758980452953",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1774529388,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_3J0XCBB972",
+    "value": "GS2.1.s1758977388$o1$g1$t1758980453$j60$l0$h0",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1793540453.390086,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "utag_main",
+    "value": "v_id:01998b3826ca000318780e3e2cb805075015c06d00b3b$_sn:1$_se:40$_ss:0$_st:1758982254265$ses_id:1758977337035%3Bexp-session$_pn:11%3Bexp-session$vapi_domain:realestate.com.au$dc_visit:1$dc_event:28%3Bexp-session$_prevpage:rea%3Asold%3Asearch%20result%20-%20list%3Bexp-1758984054268$dc_region:ap-southeast-2%3Bexp-session$adform_uid:8794647587934017173%3Bexp-session$ttd_uuid:13a1d1d5-d4d8-48da-a544-8ad20573a3d5%3Bexp-session",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1790516454,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_sp_id.2fe7",
+    "value": "ff9dd0c0-cb12-453c-be7b-a6087776f2bb.1758977388.1.1758980454.1758977388.6cff42b4-b06e-4a1c-927f-193a20e6818c",
+    "domain": ".realestate.com.au",
+    "path": "/",
+    "expires": 1793540454.274633,
+    "httpOnly": false,
+    "secure": true
+  }
+]
