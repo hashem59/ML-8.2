@@ -1,10 +1,18 @@
-3. Model development: develop at least three different regression models,
+Question 2. Conduct data preprocessing and exploratory data analysis:
+a. Convert categorical variables (e.g. unit/house/apartment) using
+one-hot encoding.
+b. Create new features (e.g., number of schools nearby).
+c. Normalize or standardize numerical features.
+d. Visualize housing price distributions, feature to target correlations,
+and outliers.
+e. Identify price trends over time across suburbs.
+Question 3. Model development: develop at least three different regression models,
 use MAE, RMSE and R-squared as the evaluation metrics, use k-fold cross
 validation to evaluate the model performance.
-4. Feature importance: identify which features more influence housing price,
+Question 4. Feature importance: identify which features more influence housing price,
 use model-specific methods (e.g., feature importance in tree-based
 methods) or other statistical methods (e.g., SHAP values).
-5. Model deployment: Develop a simple web demo application using
+Question 5. Model deployment: Develop a simple web demo application using
 appropriate packages (e.g., gradio, Flask or Streamlit). Allow users to input
 property features and receive price predictions.
 
