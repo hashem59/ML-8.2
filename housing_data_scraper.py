@@ -35,9 +35,9 @@ class HousingScraper:
 
         # Suburb URLs
         self.suburb_urls = {
-            "Highton": "https://www.realestate.com.au/sold/in-highton,+vic+3216/list-",
-            "Ballarat": "https://www.realestate.com.au/sold/in-ballarat+-+greater+region,+vic/list-",
-            "Werribee": "https://www.realestate.com.au/sold/in-werribee,+vic+3030/list-",
+            "Highton": "https://www.realestate.com.au/sold/property-house-unit+apartment-in-highton,+vic+3216/list-",
+            "Ballarat": "https://www.realestate.com.au/sold/property-house-unit+apartment-in-ballarat+-+greater+region,+vic/list-",
+            "Werribee": "https://www.realestate.com.au/sold/property-house-unit+apartment-in-werribee,+vic+3030/list-",
         }
 
     def setup_chrome_driver(self):
@@ -150,7 +150,7 @@ class HousingScraper:
                 "bedrooms": None,
                 "bathrooms": None,
                 "parking": None,
-                "land_size": "",
+                "land_size": None,
                 "sold_price": None,
                 "sold_date": "",
                 "listing_url": "",
@@ -171,18 +171,21 @@ class HousingScraper:
             )
 
             if address_elem:
-                property_data["address"] = address_elem.text.split()
+                property_data["address"] = address_elem.text.strip()
 
             if property_data["address"]:
-                addrsss_parts = property_data["address"].split(",")
+                address_parts = property_data["address"].split(",")
                 # 401 Drummond Street South, Ballarat Central
                 # after split we get ['401 Drummond Street South', 'Ballarat Central']
                 # we want to get the last part
-                property_data["suburb"] = addrsss_parts[-1].strip()
+                if len(address_parts) > 1:
+                    property_data["suburb"] = address_parts[-1].strip()
+                else:
+                    property_data["suburb"] = address_parts[0].strip()
 
             # Extract property type
             # first select ".residential-card__primary p"
-            type_elem = property_element.select_one(".residential-card__primary p")
+            type_elem = property_element.select_one(".residential-card__primary > p")
             if type_elem:
                 property_data["property_type"] = type_elem.text.strip()
 
@@ -215,15 +218,20 @@ class HousingScraper:
                             if cars:
                                 property_data["parking"] = int(cars[0])
                         elif "land size" in aria_label or "m²" in text:
-                            property_data["land_size"] = text
+                            # Extract numeric value from land size (e.g., "186m²" -> 186)
+                            land_numbers = re.findall(r"\d+", text)
+                            if land_numbers:
+                                property_data["land_size"] = int(land_numbers[0])
+                            else:
+                                property_data["land_size"] = None
 
             # Extract sold price
             price_elem = property_element.find("span", class_="property-price")
             if price_elem:
                 property_data["sold_price"] = self.extract_price(price_elem.text)
 
-            # Extract sold date
-            date_elem = property_element.find("span", {"data-testid": "sold-date"})
+            # Extract sold date ".residential-card__content > span" text
+            date_elem = property_element.select_one(".residential-card__content > span")
             if date_elem:
                 property_data["sold_date"] = date_elem.text.strip()
 
@@ -276,13 +284,15 @@ class HousingScraper:
     def scrape_suburb(self, suburb_name, target_count=50):
         """Scrape properties for a specific suburb"""
         logger.info(f"Starting to scrape {suburb_name}")
+        logger.info(f"Starting to scrape {self.suburb_urls[suburb_name]}")
         base_url = self.suburb_urls[suburb_name]
 
         page = 1
         suburb_data = []
 
-        while len(suburb_data) < target_count and page <= 1:  # Limit to 10 pages
+        while len(suburb_data) < target_count and page <= 4:  # Limit to 4 pages
             url = f"{base_url}{page}"
+            print(f"Scraping {url}")
             page_data = self.scrape_page(url, suburb_name)
 
             if not page_data:
@@ -310,10 +320,10 @@ class HousingScraper:
 
         try:
             for suburb_name in self.suburb_urls.keys():
-                suburb_data = self.scrape_suburb(suburb_name, target_count=50)
+                suburb_data = self.scrape_suburb(suburb_name, target_count=150)
                 self.data.extend(suburb_data)
                 logger.info(f"Total properties collected: {len(self.data)}")
-                time.sleep(10)  # Pause between suburbs
+                time.sleep(4)  # Pause between suburbs
 
             logger.info(
                 f"Data collection completed. Total properties: {len(self.data)}"

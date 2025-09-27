@@ -1,0 +1,301 @@
+suburb,address,property_type,bedrooms,bathrooms,parking,land_size,sold_price,sold_date,listing_url
+Highton,"9 Thwaites Close, Highton",House,6,2,2.0,525.0,785000,25 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148736824
+Highton,"89 Thornhill Road, Highton",House,3,2,2.0,825.0,1015000,21 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148980004
+Highton,"10/104 Colac Road, Highton",Apartment,2,1,1.0,,455000,21 Sep 2025,https://www.realestate.com.au/sold/property-apartment-vic-highton-145744644
+Highton,"7 Dunsmore Road, Highton",House,4,2,2.0,699.0,829000,20 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148854628
+Highton,"7/145 Barrabool Road, Highton",Unit,1,1,1.0,,328000,19 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-142467340
+Highton,"11 Maus Street, Highton",House,3,2,2.0,664.0,925000,18 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148925944
+Highton,"5 Standale Court, Highton",House,5,2,2.0,888.0,1111000,17 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148995244
+Highton,"20/102 Colac Road, Highton",Unit,2,1,1.0,,430000,17 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148143724
+Highton,"127 South Valley Road, Highton",House,3,2,2.0,680.0,791000,16 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148881752
+Highton,"1/176 South Valley Road, Highton",Unit,2,1,2.0,253.0,625000,16 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148925836
+Highton,"1/69 Fryers Road, Highton",Unit,2,1,1.0,98.0,470000,15 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148328360
+Highton,"69 Buckley Falls Road, Highton",House,5,2,2.0,893.0,1305000,13 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148831860
+Highton,"101 Grantham Drive, Highton",House,3,2,4.0,766.0,852000,12 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148625916
+Highton,"187B Barrabool Road, Highton",House,3,1,,,660000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148863684
+Highton,"1/219A Mount Pleasant Road, Highton",Unit,2,1,1.0,197.0,490000,10 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148600772
+Highton,"8 Watersedge Terrace, Highton",House,5,2,4.0,1.0,1400000,09 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148736924
+Highton,"10 Duggan Court, Highton",House,5,3,4.0,630.0,981000,08 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148651860
+Highton,"43 Cara Road, Highton",House,4,2,2.0,685.0,1208000,05 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148175552
+Highton,"144 Grantham Drive, Highton",House,4,2,2.0,951.0,1140000,05 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148829064
+Highton,"1/4 Burdekin Road, Highton",Unit,2,1,2.0,216.0,610000,02 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148806512
+Highton,"11 Whitten Court, Highton",House,3,2,2.0,792.0,1070000,30 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148655728
+Highton,"1/69 South Valley Road, Highton",House,2,1,1.0,,642000,28 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-highton-142550524
+Highton,"1/50 Barwon Boulevard, Highton",Unit,2,2,2.0,,800000,22 Aug 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148643156
+Highton,"13 Swanbourne Avenue, Highton",House,4,2,2.0,717.0,1100000,21 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147928844
+Highton,"26 Linton Lane, Highton",House,4,2,2.0,725.0,985000,18 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148571128
+Highton,"1 Dunsmore Road, Highton",House,3,2,1.0,708.0,792500,15 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148687600
+Highton,"33 Fogarty Avenue, Highton",House,4,2,2.0,684.0,805000,13 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147499032
+Highton,"4 Clydesdale Way, Highton",House,3,1,2.0,,690000,07 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148615588
+Highton,"4/165 Barrabool Road, Highton",Unit,2,1,1.0,320.0,595000,07 Aug 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148562376
+Highton,"5 Pepperdine Way, Highton",House,4,2,2.0,714.0,976000,05 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148469336
+Highton,"5/9 Elizabeth Street, Highton",Unit,1,1,1.0,,310000,05 Aug 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148563632
+Highton,"6 Badenoch Court, Highton",House,4,3,2.0,854.0,1310000,01 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147967212
+Highton,"35 Larcombe Street, Highton",House,4,2,1.0,432.0,845000,30 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148484548
+Highton,"8 Strickland  Ave, Highton",House,3,2,2.0,589.0,751000,26 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148400368
+Highton,"10 Aitkenside Avenue, Highton",House,4,2,2.0,622.0,1195000,23 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-144091444
+Highton,"3 Queens Park Road, Highton",House,4,2,2.0,708.0,1155000,23 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148318808
+Highton,"4 Jewell Place, Highton",House,3,2,2.0,,870000,23 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148243584
+Highton,"138 Barrabool Road, Highton",House,3,1,2.0,743.0,685000,22 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148224452
+Highton,"18 Valencay Avenue, Highton",House,5,3,2.0,680.0,1320000,21 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147498812
+Highton,"9 Annmaree Road, Highton",House,3,2,2.0,,840000,18 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148173924
+Highton,"117/20 Ficinia Mews, Highton",Unit,1,1,1.0,,240000,18 Jul 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148298860
+Highton,"5/21 Glastonbury Drive, Highton",Unit,2,1,1.0,,485000,17 Jul 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148359980
+Highton,"74 South Valley Road, Highton",House,6,3,4.0,631.0,895000,16 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147544024
+Highton,"109 South Valley Road, Highton",House,3,2,2.0,657.0,725000,08 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148292148
+Highton,"1/10 Basin Rise, Highton",Unit,2,1,1.0,275.0,455000,08 Jul 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-147788784
+Highton,"22 Crestmoor Drive, Highton",House,3,2,2.0,647.0,767000,04 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148351224
+Highton,"28 Homewood Lane, Highton",House,2,1,2.0,484.0,600000,04 Jul 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148070792
+Highton,"34 Lansbury Crescent, Highton",House,5,3,2.0,713.0,1030000,30 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147603968
+Highton,"9 Queens Park Road, Highton",House,3,2,1.0,639.0,1017500,27 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148051156
+Highton,"167 Mount Pleasant Road, Highton",House,3,1,1.0,734.0,715000,27 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147967848
+Highton,"2/7 Cheam Walk, Highton",House,2,1,2.0,334.0,552500,27 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147858060
+Highton,"50 Rivergum Drive, Highton",House,5,3,4.0,937.0,3100000,25 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-146454084
+Highton,"57 Dryden Way, Highton",House,3,2,2.0,616.0,820000,25 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148197332
+Highton,"96 South Valley Road, Highton",House,3,1,5.0,1.0,915000,23 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147583472
+Highton,"17 Clifford Street, Highton",House,3,2,2.0,514.0,890000,23 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147928988
+Highton,"7 Northbridge Road, Highton",House,4,2,2.0,357.0,785000,23 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147811180
+Highton,"32 Cara Road, Highton",House,5,2,2.0,876.0,890000,21 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148153396
+Highton,"4-6 Cobb Court, Highton",House,4,2,1.0,526.0,1070000,20 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148186424
+Highton,"23 Thornhill Road, Highton",House,4,2,2.0,666.0,760000,19 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148072296
+Highton,"9 Highpoint Crescent, Highton",House,3,2,2.0,771.0,1045000,18 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147976936
+Highton,"2/11 Carroll Road, Highton",House,4,2,2.0,611.0,1500000,17 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147952212
+Highton,"28 Hewat Drive, Highton",House,5,2,2.0,702.0,930000,17 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147395736
+Highton,"83 Reigate Road, Highton",House,3,1,1.0,734.0,830000,17 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147999368
+Highton,"7 Regal Street, Highton",House,5,2,2.0,300.0,739000,17 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147637900
+Highton,"10 Strickland Avenue, Highton",House,3,1,2.0,590.0,728000,17 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148150760
+Highton,"53 Broughton Drive, Highton",House,2,1,1.0,276.0,562000,17 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148121256
+Highton,"4/25 North Valley Road, Highton",House,2,1,4.0,310.0,470000,17 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148037000
+Highton,"2/10 Barwon Boulevard, Highton",Unit,2,1,1.0,201.0,635000,13 Jun 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148153796
+Highton,"3 Aringa Avenue, Highton",House,3,2,2.0,819.0,980000,12 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148116396
+Highton,"11 Knollbrook Close, Highton",House,3,2,2.0,665.0,915000,11 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147745284
+Highton,"57 Reigate Road, Highton",House,4,1,2.0,724.0,895000,10 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148012044
+Highton,"29 Brassey Avenue, Highton",House,3,1,2.0,807.0,805000,10 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147661660
+Highton,"10 Remony Avenue, Highton",House,3,2,2.0,1.0,1300000,09 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148049584
+Highton,"34 Fogarty Avenue, Highton",House,3,2,2.0,722.0,910000,07 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148023580
+Highton,"20 Elizabeth Street, Highton",House,4,1,2.0,644.0,777000,06 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147655728
+Highton,"5 Northam Avenue, Highton",House,3,1,2.0,652.0,660000,03 Jun 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147928856
+Highton,"5/20 Ficinia Mews, Highton",Apartment,1,1,1.0,,230000,03 Jun 2025,https://www.realestate.com.au/sold/property-apartment-vic-highton-143793052
+Highton,"8 Cara Road, Highton",House,4,2,4.0,842.0,862000,31 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147908236
+Highton,"45 Stoneleigh Crescent, Highton",House,4,2,2.0,754.0,1225000,30 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147347204
+Highton,"105 Glastonbury Drive, Highton",House,3,2,2.0,735.0,795000,30 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147898860
+Highton,"13 Murray Street, Highton",House,4,2,1.0,627.0,815000,29 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148078140
+Highton,"6/27-29 Montague Street, Highton",Unit,1,1,1.0,133.0,355000,29 May 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-148010772
+Highton,"27 Senior Court, Highton",House,4,2,4.0,537.0,821000,28 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147977796
+Highton,"6 Highett Road, Highton",House,4,2,2.0,693.0,1065000,23 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148014276
+Highton,"147 Stoneleigh Crescent, Highton",House,4,2,2.0,408.0,985000,23 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147860912
+Highton,"119 North Valley Road, Highton",House,4,2,2.0,693.0,750000,23 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-146597980
+Highton,"1 Shoubra Court, Highton",House,3,1,1.0,658.0,680000,23 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147852540
+Highton,"6 Wynfield Drive, Highton",House,3,2,2.0,338.0,760000,22 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147841284
+Highton,"20 Northam Avenue, Highton",House,5,2,2.0,650.0,720000,21 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-146024952
+Highton,"14 Carramar Court, Highton",House,2,1,1.0,,640000,21 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-148029976
+Highton,"182 South Valley Road, Highton",House,3,2,2.0,720.0,797000,20 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147863576
+Highton,"13/27-29 Montague Street, Highton",Unit,2,1,1.0,65.0,420000,20 May 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-147729512
+Highton,"27 Ferndale Parade, Highton",House,3,1,2.0,538.0,802000,19 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147826200
+Highton,"1-4/12 Konrads Crescent, Highton",Unit,6,3,6.0,775.0,1110000,16 May 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-147201916
+Highton,"3/11 Jinjella Road, Highton",House,3,2,2.0,330.0,850000,15 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147276796
+Highton,"12 Hewat Drive, Highton",House,3,2,2.0,397.0,650000,13 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147904832
+Highton,"3 Pinecrest Drive, Highton",House,4,2,3.0,650.0,825000,09 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147832232
+Highton,"15/27-29 Montague Street, Highton",Unit,2,1,1.0,69.0,460000,09 May 2025,https://www.realestate.com.au/sold/property-unit-vic-highton-147803300
+Highton,"38 Jessica Way, Highton",House,3,2,2.0,833.0,1012000,06 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147828432
+Highton,"12 Westbury Terrace, Highton",House,4,2,2.0,723.0,1200000,05 May 2025,https://www.realestate.com.au/sold/property-house-vic-highton-147692764
+Ballarat,"710 Macarthur Street, Ballarat Central",House,3,2,6.0,856.0,715000,25 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+central-147793604
+Ballarat,"26 Pernonie Street, Lucas",House,4,2,2.0,374.0,685000,25 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-lucas-148362048
+Ballarat,"11 The Gums, Mount Clear",House,4,2,3.0,977.0,575000,24 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-mount+clear-148881508
+Ballarat,"1/244 York Street, Ballarat East",Unit,2,1,1.0,335.0,430000,24 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-ballarat+east-148887876
+Ballarat,"4/1352 Gregory Street, Lake Wendouree",House,2,1,1.0,186.0,415000,24 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-lake+wendouree-148873252
+Ballarat,"32 Porters Road, Scarsdale",Other,4,2,10.0,,950000,23 Sep 2025,https://www.realestate.com.au/sold/property-other-vic-scarsdale-147907064
+Ballarat,"9 Jarvis Way, Lucas",House,4,2,2.0,576.0,915000,23 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-lucas-148952876
+Ballarat,"3 Darlington Street, Alfredton",House,5,2,2.0,840.0,805000,23 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-alfredton-148644716
+Ballarat,"16a Napier Street, Black Hill",House,4,2,2.0,527.0,790000,23 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-black+hill-148876568
+Ballarat,"13 Blair Street, Golden Point",House,4,2,1.0,,705000,23 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-golden+point-148539696
+Ballarat,"246 Victoria Street, Ballarat East",House,3,1,3.0,1.0,700000,23 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+east-148930796
+Ballarat,"15 Tilbury Street, Winter Valley",House,4,2,2.0,749.0,692500,23 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-winter+valley-148656420
+Ballarat,"104 Nelson Street, Ballarat East",House,3,1,1.0,320.0,640000,23 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+east-148839940
+Ballarat,"111 Bryants Road, Linton",Other,3,1,4.0,,521000,23 Sep 2025,https://www.realestate.com.au/sold/property-other-vic-linton-148868052
+Ballarat,"408 Bell Street, Redan",House,3,1,2.0,490.0,501000,23 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-redan-148823368
+Ballarat,"3/1112 Ligar Street, Ballarat North",Unit,2,1,1.0,228.0,425000,23 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-ballarat+north-148959152
+Ballarat,"10 Zoe Drive, Mount Helen",House,4,2,2.0,1.0,800000,22 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-mount+helen-148786240
+Ballarat,"7 Madeleine Road, Brown Hill",House,4,2,2.0,,640000,22 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-brown+hill-148309772
+Ballarat,"20 Paling Street, Ballarat North",House,3,1,6.0,995.0,540000,22 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+north-148764240
+Ballarat,"2 Dunn Street, Golden Point",House,4,3,2.0,535.0,865000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-golden+point-147861584
+Ballarat,"31 Quirk Road, Lucas",House,4,2,2.0,,825000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-lucas-146681696
+Ballarat,"7 Brodie Court, Mount Helen",House,4,2,2.0,1.0,780000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-mount+helen-148823384
+Ballarat,"16 Harrier Drive, Invermay Park",House,4,2,3.0,760.0,673000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-invermay+park-148946460
+Ballarat,"1 Daylesford Road, Brown Hill",House,3,2,2.0,721.0,615000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-brown+hill-148135212
+Ballarat,"5 Aubrey Street, Wendouree",House,5,2,4.0,581.0,600000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-wendouree-148822928
+Ballarat,"102a Johns Street, Ballarat East",House,3,1,2.0,317.0,545000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+east-148982280
+Ballarat,"13 Dante Crescent, Bonshaw",House,3,2,2.0,,535000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-bonshaw-148704364
+Ballarat,"5 Collins Avenue, Sebastopol",House,3,2,4.0,561.0,486000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-sebastopol-148824316
+Ballarat,"5 Rice Street, Ballarat East",House,2,1,4.0,581.0,460000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+east-148594028
+Ballarat,"29 York Street, Golden Point",House,3,1,1.0,,395000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-golden+point-148704108
+Ballarat,"4/243 York Street, Ballarat East",House,2,1,1.0,220.0,355000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+east-148874912
+Ballarat,"403 Drummond Street North, Lake Wendouree",House,3,1,2.0,405.0,880000,18 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-lake+wendouree-148983332
+Ballarat,"55 Willoby Drive, Alfredton",House,4,2,2.0,469.0,700000,18 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-alfredton-148960336
+Ballarat,"1 Felix Court, Miners Rest",House,4,2,3.0,704.0,661500,18 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-miners+rest-148945700
+Ballarat,"15 Deakes Court, Sebastopol",House,3,1,1.0,,490000,18 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-sebastopol-149018584
+Ballarat,"6/115 Albert Street, Ballarat Central",Unit,2,1,1.0,118.0,407000,18 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-ballarat+central-148994928
+Ballarat,"706 Talbot Street South, Redan",House,3,1,2.0,,400000,18 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-redan-148823712
+Ballarat,"23 Techaven Street, Delacombe",House,4,2,2.0,476.0,585000,17 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-delacombe-148253600
+Ballarat,"20 Beartooth Drive, Winter Valley",House,4,2,2.0,,570000,17 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-winter+valley-148704112
+Ballarat,"712 Norman Street, Invermay Park",House,4,2,2.0,686.0,510000,17 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-invermay+park-148946468
+Ballarat,"2A James Street, Golden Point",House,2,1,1.0,,440000,17 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-golden+point-148844548
+Ballarat,"6 Llewellyn Court, Lucas",House,4,2,2.0,576.0,862500,16 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-lucas-146368276
+Ballarat,"18 St Swindons Avenue, Lake Gardens",House,4,2,2.0,627.0,730000,16 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-lake+gardens-148743144
+Ballarat,"27 Linkage Street, Bonshaw",House,5,2,2.0,406.0,590000,16 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-bonshaw-147310736
+Ballarat,"7 Arthur Street, Alfredton",House,3,2,3.0,,542000,16 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-alfredton-148139644
+Ballarat,"129A Eureka Street, Ballarat East",House,3,2,2.0,301.0,535000,16 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+east-148714932
+Ballarat,"1022 Norman Street, Wendouree",House,3,1,1.0,669.0,515000,16 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-wendouree-148945380
+Ballarat,"5/221 York Street, Ballarat East",Unit,2,1,1.0,217.0,380000,16 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-ballarat+east-148823380
+Ballarat,"15 Mount Helen Drive, Mount Helen",House,6,2,4.0,2.0,1076000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-mount+helen-147779084
+Ballarat,"4A Allan Street, Buninyong",House,4,3,4.0,2.0,935000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-buninyong-148534252
+Ballarat,"202 Humffray Street North, Ballarat East",House,3,1,4.0,1.0,745000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+east-147366600
+Ballarat,"35 St Mirren Drive, Nerrina",House,4,2,2.0,605.0,710000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-nerrina-148764856
+Ballarat,"412 Raglan Street South, Ballarat Central",House,3,2,3.0,505.0,710000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+central-147120576
+Ballarat,"27A Ryan Street, Brown Hill",House,4,2,2.0,751.0,670000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-brown+hill-148644156
+Ballarat,"142 Cuthberts Road, Alfredton",House,3,2,2.0,740.0,636000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-alfredton-148942384
+Ballarat,"80 Lugano Avenue, Alfredton",House,4,2,2.0,449.0,623500,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-alfredton-148413220
+Ballarat,"13 Napier Street, Black Hill",House,3,1,2.0,339.0,610000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-black+hill-148867528
+Ballarat,"615 Bond Street, Golden Point",House,3,1,1.0,969.0,595000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-golden+point-144523152
+Ballarat,"100 Giot Drive, Wendouree",House,3,2,2.0,427.0,525000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-wendouree-145505780
+Ballarat,"1155 Grevillea Road, Wendouree",House,3,1,2.0,587.0,465000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-wendouree-148833036
+Ballarat,"2/504 Lydiard Street, Soldiers Hill",House,2,1,1.0,226.0,435000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-soldiers+hill-147920056
+Ballarat,"14 Walsh Avenue, Ballarat North",House,3,1,2.0,,410000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+north-148348784
+Ballarat,"7 Mullingar Drive, Alfredton",House,5,3,2.0,576.0,775000,13 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-alfredton-148814660
+Ballarat,"3 Winston Court, Wendouree",House,4,2,4.0,680.0,596000,13 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-wendouree-148797404
+Ballarat,"104 Tantaus Road, Dereel",House,4,2,8.0,,935000,12 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-dereel-148827204
+Ballarat,"27 Barton Court, Smythesdale",House,4,2,11.0,2.0,930000,12 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-smythesdale-148777064
+Ballarat,"44-46 Darriwell Drive, Mount Helen",House,4,2,2.0,1.0,815000,12 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-mount+helen-144573592
+Ballarat,"13 Cedar Avenue, Alfredton",House,4,2,2.0,,735000,12 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-alfredton-148594500
+Ballarat,"19 Hawk Street, Winter Valley",House,4,2,2.0,425.0,550000,12 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-winter+valley-148030324
+Ballarat,"18 Specimen Vale South, Ballarat East",House,2,1,1.0,209.0,455000,12 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+east-148876820
+Ballarat,"2/14 Recreation Road, Mount Clear",Unit,2,1,1.0,,310000,12 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-mount+clear-148571520
+Ballarat,"397 Post Office Road, Ross Creek",House,4,2,2.0,10.0,1160000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ross+creek-147198816
+Ballarat,"11 Hill Top Road, Brown Hill",House,4,2,4.0,680.0,760000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-brown+hill-148365868
+Ballarat,"23 Canico Lane, Hillcrest",House,3,2,4.0,4.0,680000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-hillcrest-148668352
+Ballarat,"32 Horwood Drive, Mount Clear",House,4,2,2.0,544.0,660000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-mount+clear-142792804
+Ballarat,"4 Grandview Grove, Wendouree",House,3,1,2.0,657.0,540500,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-wendouree-148937208
+Ballarat,"8/912 Geelong Road, Canadian",House,3,2,1.0,526.0,532000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-canadian-148704260
+Ballarat,"3/4 Wall Street, Sebastopol",Unit,2,1,1.0,210.0,330000,11 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-sebastopol-148537236
+Ballarat,"53 Beverin Street, Sebastopol",House,2,1,2.0,601.0,310000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-sebastopol-148027688
+Ballarat,"1 Kent Street, Ballarat Central",House,5,3,2.0,562.0,935000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+central-147430644
+Ballarat,"7 Payton Crescent, Canadian",House,3,2,2.0,526.0,690000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-canadian-148807960
+Ballarat,"1312 Dana Street, Ballarat Central",House,3,1,2.0,409.0,625000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+central-147895244
+Ballarat,"31 Walters Way, Alfredton",House,4,2,2.0,400.0,620000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-alfredton-148878716
+Ballarat,"9 Mcnamee Boulevard, Lucas",House,4,2,2.0,511.0,600500,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-lucas-148862252
+Ballarat,"15 Pontiac Drive, Smythes Creek",House,4,2,2.0,512.0,575000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-smythes+creek-148903288
+Ballarat,"27 Gregory Street, Black Hill",House,3,1,2.0,664.0,575000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-black+hill-148869824
+Ballarat,"6 Kendra Place, Bonshaw",House,3,2,1.0,287.0,549500,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-bonshaw-148136860
+Ballarat,"7 Oxford Street, Wendouree",House,3,1,3.0,596.0,490000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-wendouree-148100784
+Ballarat,"17 Hunt Street, Ballarat East",House,3,1,2.0,676.0,481000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+east-148518872
+Ballarat,"417 Ripon St South, Ballarat Central",House,2,1,1.0,472.0,480000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-ballarat+central-148631588
+Ballarat,"212 Yarrowee Street, Sebastopol",House,3,1,2.0,615.0,480000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-sebastopol-148428764
+Ballarat,"1/2 Symons Street, Wendouree",Unit,2,1,4.0,403.0,465000,10 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-wendouree-148824660
+Ballarat,"60 Nunns Road, Snake Valley",House,3,1,1.0,1.0,170000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-snake+valley-147604764
+Ballarat,"14 Brawn Avenue, Lake Wendouree",House,3,2,1.0,644.0,830000,09 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-lake+wendouree-148612108
+Ballarat,"508 Forest Street, Buninyong",House,3,2,2.0,,820000,09 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-buninyong-145393644
+Ballarat,"15 Donegal Drive, Alfredton",House,4,2,2.0,704.0,740000,09 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-alfredton-148222584
+Ballarat,"6 Merrick Avenue, Nerrina",House,4,2,2.0,480.0,740000,09 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-nerrina-147442504
+Ballarat,"9 Earls Square, Delacombe",House,4,2,4.0,1.0,700000,09 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-delacombe-148836784
+Ballarat,"53 Daly Drive, Lucas",House,3,2,2.0,,505000,09 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-lucas-148709300
+Ballarat,"6/4 Wall Street, Sebastopol",House,2,1,1.0,208.0,338000,09 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-sebastopol-148528388
+Werribee,"46B Wedge Street South, Werribee",House,4,3,2.0,,890000,25 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148551624
+Werribee,"4 Aviator Street, Werribee",House,4,2,2.0,313.0,735000,25 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148803144
+Werribee,"16 Riparian Street, Werribee",House,4,2,2.0,402.0,710000,24 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148466368
+Werribee,"1 Lydford Court, Werribee",House,3,1,1.0,589.0,595000,24 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-149047516
+Werribee,"3/1 Trinca Court, Werribee",House,3,2,2.0,209.0,620000,23 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148979632
+Werribee,"26 Stewart Drive, Werribee",House,4,2,2.0,527.0,751500,22 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148874300
+Werribee,"10 Becontree Grove, Werribee",House,4,2,2.0,294.0,705000,22 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148688408
+Werribee,"7 Gibbons Street, Werribee",House,2,1,2.0,565.0,660000,22 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148889524
+Werribee,"19 Oradala Rise, Werribee",House,3,2,2.0,,555000,22 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148947280
+Werribee,"82 Fairhall Avenue, Werribee",House,3,2,2.0,,500000,22 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148592692
+Werribee,"25 Diamond Drive, Werribee",House,3,2,1.0,604.0,690000,20 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148890828
+Werribee,"5/14 Manly Street, Werribee",Unit,2,1,1.0,,240000,20 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-148928212
+Werribee,"2/14 Manly Street, Werribee",Unit,2,1,1.0,,240000,20 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-148927956
+Werribee,"4/14 Manly Street, Werribee",Unit,1,1,1.0,,203500,20 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-148928216
+Werribee,"9 Midland Grove, Werribee",House,4,2,2.0,392.0,955000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148607600
+Werribee,"16 Ivy Court, Werribee",House,4,2,2.0,524.0,905000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148112888
+Werribee,"3 McDonald Street, Werribee",House,3,2,2.0,508.0,750000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148916228
+Werribee,"23 Wedgebill Circuit, Werribee",House,2,1,1.0,,410000,19 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148859848
+Werribee,"2 Linda Court, Werribee",House,3,2,2.0,530.0,703250,18 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148914836
+Werribee,"35 Rowes Road, Werribee",House,3,2,2.0,524.0,696500,18 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148832788
+Werribee,"17 Cressy Street, Werribee",House,4,2,2.0,,650100,18 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148856552
+Werribee,"6/14 Manly Street, Werribee",Unit,2,1,1.0,,255000,18 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-148933932
+Werribee,"11 Hansel Drive, Werribee",House,4,3,2.0,400.0,721000,17 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148297140
+Werribee,"26 Charter Road, Werribee",House,4,2,2.0,522.0,840000,16 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148513228
+Werribee,"43 Indura Drive, Werribee",House,4,2,2.0,,656000,15 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148782456
+Werribee,"13 Murrindal Street, Werribee",House,4,2,2.0,375.0,755000,12 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148898868
+Werribee,"1/122 Shaws Road, Werribee",Unit,2,1,1.0,,430000,12 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-148720128
+Werribee,"22 Cassidy Road, Werribee",House,4,2,2.0,625.0,1050000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148780936
+Werribee,"78 Shipwright Parade, Werribee",House,4,2,4.0,588.0,825000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148493820
+Werribee,"6 Ivy Court, Werribee",House,4,2,2.0,620.0,760000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148546060
+Werribee,"46 Edgar Street, Werribee",House,3,1,1.0,697.0,615000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148586600
+Werribee,"59 Jindalee Way, Werribee",House,3,2,2.0,,575000,11 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148947656
+Werribee,"4 Latham Street, Werribee",House,3,1,4.0,511.0,660000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148883484
+Werribee,"23  Benson Drive, Werribee",House,3,2,1.0,,550000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148294552
+Werribee,"65 Abbeygate Drive, Werribee",House,3,2,2.0,257.0,540000,10 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148846320
+Werribee,"7 Larose Place, Werribee",House,3,2,2.0,802.0,888000,08 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148781104
+Werribee,"13 Stawell Street, Werribee",House,5,3,2.0,582.0,720000,08 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-147990056
+Werribee,"8 Sanderling Street, Werribee",House,3,1,6.0,767.0,655000,08 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-147738276
+Werribee,"5 Pitanga Gardens, Werribee",House,5,2,2.0,641.0,943800,07 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148765392
+Werribee,"24 Parrakeet Road, Werribee",House,3,1,5.0,547.0,615000,06 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148766780
+Werribee,"16 Jabiru Court, Werribee",House,3,1,4.0,568.0,595000,06 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148755104
+Werribee,"64A Kookaburra Avenue, Werribee",House,3,2,3.0,409.0,585000,06 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148724488
+Werribee,"2 Laxmi Link, Werribee",House,4,2,2.0,345.0,690000,05 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148794404
+Werribee,"126 Farm Road, Werribee",House,4,2,2.0,350.0,665000,05 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148449812
+Werribee,"4 Canopy Way, Werribee",House,3,2,1.0,313.0,650000,05 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148809552
+Werribee,"9 Aylesbury Terrace, Werribee",House,4,2,2.0,350.0,635000,05 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-136743022
+Werribee,"74 Silvereye Crescent, Werribee",House,5,2,2.0,566.0,565000,05 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148868488
+Werribee,"186 Farm Road, Werribee",House,4,3,4.0,574.0,1070000,03 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148794176
+Werribee,"27 Kramer Street, Werribee",House,3,2,2.0,709.0,700000,01 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148705008
+Werribee,"18 Canmore Street, Werribee",House,4,2,2.0,400.0,640000,01 Sep 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148705348
+Werribee,"2/39 Songlark Crescent, Werribee",Unit,2,1,1.0,308.0,450000,01 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-148747960
+Werribee,"1/27 Deutgam Street, Werribee",Unit,1,1,1.0,,300000,01 Sep 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-147693000
+Werribee,"235 Black Forest Road, Werribee",House,4,2,2.0,,590000,31 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148634224
+Werribee,"5 Manta Court, Werribee",House,3,2,2.0,443.0,760000,30 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148399532
+Werribee,"389 Blackforest Road, Werribee",House,4,2,2.0,,659000,30 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148597676
+Werribee,"19 Briardale Drive, Werribee",House,3,2,2.0,536.0,680000,29 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148766264
+Werribee,"3 Runcorn Street, Werribee",House,4,2,2.0,,646000,28 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148757060
+Werribee,"13 Sandpiper Street, Werribee",House,3,1,2.0,588.0,630000,28 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148774708
+Werribee,"33  Oriole Drive, Werribee",House,3,2,1.0,597.0,685000,27 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148803308
+Werribee,"3 Driver Street, Werribee",House,4,2,2.0,448.0,680000,27 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148481964
+Werribee,"31 Sinns Avenue, Werribee",House,2,1,1.0,263.0,470000,27 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148780612
+Werribee,"97 Tulsi Avenue, Werribee",House,4,2,2.0,320.0,730000,26 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-147837928
+Werribee,"13 Pinebank Street, Werribee",House,4,2,2.0,400.0,655000,26 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148776992
+Werribee,"11 Slattery Street, Werribee",House,4,1,2.0,543.0,722888,25 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148815156
+Werribee,"14 Terrigal Court, Werribee",House,4,2,4.0,549.0,591500,25 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148711916
+Werribee,"2/11 Parker Street, Werribee",Unit,3,2,2.0,,580000,25 Aug 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-148583620
+Werribee,"1/45 Parramatta Road, Werribee",Unit,3,1,1.0,,490000,25 Aug 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-148713076
+Werribee,"1/16 Galvin Road, Werribee",House,2,1,1.0,,457000,25 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148448076
+Werribee,"2 Settler Court, Werribee",House,3,1,3.0,530.0,593250,23 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148592584
+Werribee,"10 Amethyst Place, Werribee",House,4,2,4.0,679.0,1115000,22 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148602928
+Werribee,"14 Strathford Court, Werribee",House,3,1,2.0,568.0,578000,22 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148749828
+Werribee,"62 Tindale Boulevard, Werribee",House,4,2,2.0,448.0,830000,21 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148594924
+Werribee,"15 Willow Street, Werribee",House,3,1,2.0,557.0,567000,21 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148775072
+Werribee,"64A Swan Street, Werribee",Unit,4,2,2.0,,555000,21 Aug 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-144717664
+Werribee,"3/2 Dixon Avenue, Werribee",Unit,2,1,2.0,,365000,21 Aug 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-148774088
+Werribee,"22 Chancery Road, Werribee",House,4,2,2.0,431.0,780000,20 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148239464
+Werribee,"29 Hourigan Way, Werribee",House,4,2,2.0,405.0,620000,20 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148525112
+Werribee,"4 Miner Court, Werribee",House,3,1,2.0,665.0,610500,20 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148600064
+Werribee,"22 ALBATROSS AVENUE, Werribee",House,3,1,6.0,611.0,603000,20 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148534856
+Werribee,"51 Wyndham Street, Werribee",House,3,1,1.0,400.0,452000,20 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-122116426
+Werribee,"9/52 Latham Street, Werribee",Unit,3,1,1.0,200.0,440000,20 Aug 2025,https://www.realestate.com.au/sold/property-unit-vic-werribee-148440700
+Werribee,"18 Yankos Drive, Werribee",House,5,2,2.0,625.0,960000,19 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148537128
+Werribee,"21 Melrose Place, Werribee",House,4,2,2.0,600.0,840000,19 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148665388
+Werribee,"8 Ballan Road, Werribee",House,2,1,1.0,207.0,475000,19 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148654532
+Werribee,"2/8 Georgia Crescent, Werribee",House,3,2,2.0,,600000,18 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148292492
+Werribee,"1/8 Margaret Street, Werribee",House,3,1,2.0,336.0,540000,18 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148646708
+Werribee,"5 Poinciana Court, Werribee",House,3,1,4.0,549.0,540000,18 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148499096
+Werribee,"61 Silvereye Crescent, Werribee",House,3,2,4.0,836.0,760000,15 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148641456
+Werribee,"1 Culgoa Court, Werribee",House,4,2,4.0,595.0,708000,15 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148472664
+Werribee,"44 Kailash Road, Werribee",House,4,2,2.0,392.0,801000,14 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148330880
+Werribee,"19 Driver Street, Werribee",House,4,2,2.0,399.0,672000,14 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148698784
+Werribee,"104 Tulsi Avenue, Werribee",House,3,2,1.0,,610000,14 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148723376
+Werribee,"30 Everwin Drive, Werribee",House,3,1,2.0,300.0,520000,14 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148628136
+Werribee,"5 Riversdale Drive, Werribee",House,4,2,2.0,,785000,13 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148656888
+Werribee,"7 Retreat Place, Werribee",House,3,1,2.0,540.0,530000,13 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148608044
+Werribee,"6 Jellicoe Street, Werribee",House,3,1,2.0,618.0,720000,12 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148566120
+Werribee,"251 Shaws Road, Werribee",House,3,1,2.0,,700000,12 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148235332
+Werribee,"5 Horton Drive, Werribee",House,4,2,2.0,395.0,628000,12 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148619156
+Werribee,"10 Artfield Drive, Werribee",House,4,2,2.0,274.0,620000,12 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148428588
+Werribee,"81 Market Road, Werribee",House,3,1,4.0,695.0,620000,12 Aug 2025,https://www.realestate.com.au/sold/property-house-vic-werribee-148685100
