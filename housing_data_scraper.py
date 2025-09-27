@@ -107,26 +107,34 @@ class HousingScraper:
             if type_elem:
                 property_data["property_type"] = type_elem.text.strip()
 
-            # Extract bedrooms, bathrooms, parking
-            features_elem = property_element.find(
-                "div", {"data-testid": "property-features"}
-            )
-            if features_elem:
-                feature_spans = features_elem.find_all("span")
-                for span in feature_spans:
-                    text = span.text.strip()
-                    if "bed" in text.lower():
-                        beds = re.findall(r"\d+", text)
-                        if beds:
-                            property_data["bedrooms"] = int(beds[0])
-                    elif "bath" in text.lower():
-                        baths = re.findall(r"\d+", text)
-                        if baths:
-                            property_data["bathrooms"] = int(baths[0])
-                    elif "car" in text.lower() or "parking" in text.lower():
-                        cars = re.findall(r"\d+", text)
-                        if cars:
-                            property_data["parking"] = int(cars[0])
+            # Extract bedrooms, bathrooms, parking, land size
+            features_ul = property_element.find("ul", class_="residential-card__primary")
+            if features_ul:
+                # Find all list items with aria-label
+                feature_items = features_ul.find_all("li", {"aria-label": True})
+
+                for item in feature_items:
+                    aria_label = item.get("aria-label", "").lower()
+
+                    # Extract the number from the p tag
+                    p_tag = item.find("p")
+                    if p_tag:
+                        text = p_tag.text.strip()
+
+                        if "bedroom" in aria_label:
+                            beds = re.findall(r"\d+", text)
+                            if beds:
+                                property_data["bedrooms"] = int(beds[0])
+                        elif "bathroom" in aria_label:
+                            baths = re.findall(r"\d+", text)
+                            if baths:
+                                property_data["bathrooms"] = int(baths[0])
+                        elif "car" in aria_label or "parking" in aria_label:
+                            cars = re.findall(r"\d+", text)
+                            if cars:
+                                property_data["parking"] = int(cars[0])
+                        elif "land size" in aria_label or "m²" in text:
+                            property_data["land_size"] = text
 
             # Extract sold price
             price_elem = property_element.find(
@@ -140,12 +148,6 @@ class HousingScraper:
             if date_elem:
                 property_data["sold_date"] = date_elem.text.strip()
 
-            # Extract land size if available
-            land_elem = property_element.find(
-                "span", string=re.compile(r"m²|sqm", re.I)
-            )
-            if land_elem:
-                property_data["land_size"] = land_elem.text.strip()
 
             return property_data
 
